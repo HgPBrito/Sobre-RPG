@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faDiceD20 } from '@fortawesome/free-solid-svg-icons';
+import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +10,7 @@ import { faDiceD20 } from '@fortawesome/free-solid-svg-icons';
 export class NavbarComponent implements OnInit {
 
   faDiceD20 = faDiceD20;
+  faHamburger = faHamburger;
 
   constructor() { }
 

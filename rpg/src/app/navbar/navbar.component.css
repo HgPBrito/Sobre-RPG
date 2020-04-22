@@ -10,11 +10,24 @@
     outline: none;
 }
 
+/* animate{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+} */
+
 @media(max-width: 991px){
 
     #home{
         border-right: none !important;
-        border-bottom: 1px solid #dee2e6 !important;;
+        border-bottom: 1px solid #343a40  !important;
         
     }    
 }
