@@ -6,7 +6,10 @@
 }
 
 .hamburguer{
-    border: none;
+    border: none;    
+}
+
+.sem-outline{
     outline: none;
 }
 

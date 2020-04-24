@@ -2,26 +2,25 @@
 
     <nav class="nav1 my-1 container-xl navbar navbar-expand-lg text-light navbar-light rounded-pill px-5 d-flex">
 
-        <div class="flex-fill">
-            <a class="navbar-brand" routerLink='/home'>
-                <fa-icon [icon]="faDiceD20" class="faDiceD20 p-1"></fa-icon>
-                <span>RPG!</span>
-            </a>
-        </div>
+        <a class="sem-outline navbar-brand" routerLink='/home'>
+            <fa-icon [icon]="faDiceD20" class="faDiceD20 p-1"></fa-icon>
+            <span>RPG!</span>
+        </a>
 
-        <button class="hamburguer navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="hamburguer sem-outline navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
             <fa-icon [icon]="faHamburger" class="faHamburger p-1"></fa-icon>
         </button>
 
-
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav d-flex justify-content-center align-items-center">
+            <div class="navbar-nav d-flex mx-auto justify-content-center align-items-center">
                 <a id="home"
-                    class="nav-link p-3 text-uppercase border-right border-dark text-monospace font-weight-bold"
+                    class="sem-outline nav-link p-3 text-uppercase border-right border-dark text-monospace font-weight-bold"
                     routerLink='/home'>Home</a>
 
-                <a class="nav-link p-3 text-uppercase text-monospace font-weight-bold" routerLink='/contact'>Contato</a>
+                <a class="sem-outline nav-link p-3 text-uppercase text-monospace font-weight-bold"
+                    routerLink='/contact'>Contato</a>
             </div>
         </div>
 
